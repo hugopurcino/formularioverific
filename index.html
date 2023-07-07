@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio html js</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fomulário de verificação</h1>
+        <form id="form-verifica">
+            <input type="number" id="valor-um" required placeholder="Insira o primeiro valor" />
+            <p class="error-message">
+                O primeiro valor deve ser menor que o segundo!</p>
+            <input type="number" id="valor-dois" required placeholder="Insira o segundo valor" />
+            <button id="btn-depositar" type="submit">Enviar</button>
+        </form>
+    <p class="success-message">Sucesso prossiga!</p>
+    </div>
+    
+
+    <script src="./main.js"></script>  
+</body>
+</html>
